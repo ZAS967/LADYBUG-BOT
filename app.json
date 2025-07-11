@@ -1,0 +1,17 @@
+{                                                                     
+  "name": "TKM-bot",                                           
+  "description": "WhatsApp bot.",                                       
+  "repository": "https://github.com/Cod3Uchiha/TKM-bot",                                                                     
+  "logo": "https://files.catbox.moe/5bzcdl.jpg",           
+  "keywords": ["nodejs", "Cod3Uchiha", "multi device"],                                               
+  "buildpacks": [                                                     
+    {                                                                   
+      "url": "heroku/nodejs"                                        
+    },                                                                
+    {                                                                   
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"                                                            
+    },                                                                
+    {                                                                   
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"                                                                  
+    }                                                            
+  ]                                                            
